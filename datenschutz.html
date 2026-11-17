@@ -7,7 +7,7 @@
 <h2>Verantwortlicher</h2>
 <p>Software-Schmiede<br>Inhaber: Oliver Fleischer<br>Pfarrer-Jungklaus-Str. 7<br>13189 Berlin<br>E-Mail: fleischer17@gmail.com</p>
 <h2>Kurzfassung</h2>
-<p>Die Lern-Apps der Software-Schmiede sammeln keine Daten, senden keine Daten und enthalten weder Werbung noch Tracker oder fremde Dienste. Die Apps haben keine Internet-Berechtigung. Alles, was das Kind eingibt oder erarbeitet, bleibt auf dem Gerät.</p>
+<p>Die Lern-Apps der Software-Schmiede erheben selbst keine Daten, senden keine Daten an uns und enthalten weder Werbung noch Tracker. Alles, was das Kind eingibt oder erarbeitet, bleibt auf dem Gerät. Mathe Genie hat keine Internet-Berechtigung. Ausnahme ist Deutsch Genie: Für die Handschrifterkennung nutzt es Google ML Kit. Dafür lädt ein Erwachsener beim ersten Start einmalig ein Sprachmodell aus dem Internet, und ML Kit kann technische Diagnosedaten an Google senden (Abschnitt „Deutsch Genie: Handschrifterkennung“). Namen, Ergebnisse und Handschrift des Kindes gehören nicht dazu.</p>
 <h2>Welche Daten die App auf dem Gerät speichert</h2>
 <p>Die App speichert ausschließlich lokal im geschützten App-Speicher des Geräts:</p>
 <ul>
@@ -22,17 +22,20 @@
 <h2>Weitergabe nur auf Ihren Wunsch</h2>
 <p>Im Übungsverlauf können Sie den Verlauf als Text exportieren, auf der Eltern-Seite ein Arbeitsblatt oder einen Bericht als PDF erzeugen. Beides geben Sie über das Teilen-Menü Ihres Geräts weiter, z. B. an Lehrkräfte oder per E-Mail. Das geschieht nur, wenn Sie es auslösen. Welche App die Datei dann erhält und was diese damit tut, bestimmen Sie. Die PDF-Dateien liegen zwischenzeitlich im Cache-Speicher der App und werden bei der nächsten Erstellung überschrieben.</p>
 <h2>Berechtigungen</h2>
-<p>Die App fordert keine Berechtigungen an. Insbesondere nutzt sie weder Internet, Standort, Kamera, Mikrofon, Kontakte noch Fotos.</p>
+<p>Mathe Genie fordert keine Berechtigungen an. Insbesondere nutzt es weder Internet, Standort, Kamera, Mikrofon, Kontakte noch Fotos. Deutsch Genie nutzt zusätzlich das Internet und den Netzwerkstatus (INTERNET, ACCESS_NETWORK_STATE), für das Laden des Sprachmodells und die Diagnosedaten von ML Kit (siehe Abschnitt „Deutsch Genie: Handschrifterkennung“). Die eingebundenen Google-Bibliotheken bringen außerdem die Berechtigungen WAKE_LOCK, RECEIVE_BOOT_COMPLETED und FOREGROUND_SERVICE mit, die die Bibliothek WorkManager für Hintergrundaufgaben nutzt. Werbe-ID, Standort, Kamera, Mikrofon, Kontakte und Fotos nutzt auch Deutsch Genie nicht.</p>
+<h2>Deutsch Genie: Handschrifterkennung</h2>
+<p>Deutsch Genie lässt Kinder Buchstaben nachfahren und Wörter mit Finger oder Stift schreiben. Die Prüfung der Buchstaben läuft vollständig in der App. Für Wörter nutzt die App Google ML Kit (Digital Ink Recognition). Die Erkennung selbst läuft auf dem Gerät, die Handschrift des Kindes wird nicht übertragen.</p>
+<p>Das Sprachmodell (etwa 20 MB) wird beim ersten Start einmalig aus dem Internet geladen. Der Bildschirm dafür erscheint vor der Namenseingabe und richtet sich an Erwachsene. Das Laden startet erst, wenn Sie auf „Jetzt laden“ tippen. Sie können es überspringen, dann schreibt das Kind Wörter mit der Tastatur, und das Laden lässt sich später im Schreibfeld nachholen. Beim Laden erhält Google technische Verbindungsdaten wie die IP-Adresse, so wie bei jedem Download. Außerdem sendet ML Kit nach Angaben von Google Diagnose- und Nutzungsdaten an Google, sobald das Gerät online ist: Gerätedaten (Hersteller, Modell, Android-Version), Paketname und App-Version, Kennungen des Geräts und der Installation, die nicht der Identifizierung einer Person dienen sollen, Leistungswerte, Fehlercodes und die eingestellte Sprache. Diese Daten enthalten weder den Namen noch Ergebnisse noch die Handschrift des Kindes. Nach Angaben von Google werden sie verschlüsselt übertragen und nicht an Dritte weitergegeben. Die App selbst braucht nach dem Laden des Modells kein Internet mehr. Weitere Informationen finden Sie in den Datenschutzhinweisen von Google zu ML Kit.</p>
 <h2>Datensicherung durch Android</h2>
 <p>Android kann App-Daten im Rahmen der Geräte-Sicherung (Google-Konto des Nutzers) sichern, sofern Sie diese Funktion auf Ihrem Gerät aktiviert haben. Das erfolgt durch das Betriebssystem und nicht durch die App. Bitte prüfen Sie dies in den Einstellungen Ihres Geräts.</p>
 <h2>Löschen</h2>
 <p>Im Bereich Eltern können Sie ein Kind samt Einstellungen und Verlauf löschen. Der Übungsverlauf lässt sich im Übungsverlauf selbst leeren. Mit dem Deinstallieren der App oder dem Löschen der App-Daten in den Android-Einstellungen werden alle Daten vollständig entfernt.</p>
 <h2>Kinder</h2>
-<p>Die App richtet sich an Grundschulkinder, wird aber von Eltern eingerichtet. Es werden keine personenbezogenen Daten an uns übermittelt. Eine Einwilligung zur Datenverarbeitung ist daher nicht erforderlich.</p>
+<p>Die App richtet sich an Grundschulkinder, wird aber von Eltern eingerichtet. Es werden keine personenbezogenen Daten an uns übermittelt. Eine Einwilligung zur Datenverarbeitung ist daher nicht erforderlich. Das einmalige Laden des Sprachmodells in Deutsch Genie löst ein Erwachsener selbst aus, bevor ein Kindername eingegeben ist. Die Diagnosedaten von ML Kit enthalten keine Namen und keine Ergebnisse.</p>
 <h2>Google Play</h2>
 <p>Beim Herunterladen über Google Play verarbeitet Google Daten nach eigenen Datenschutzbestimmungen. Darauf hat der Anbieter der Apps keinen Einfluss.</p>
 <h2>Ihre Rechte</h2>
 <p>Da der Anbieter keine personenbezogenen Daten Ihrer Nutzung erhält, kann er keine Auskunft über gespeicherte Daten geben. Alle Daten können Sie selbst in der App einsehen und löschen. Bei Fragen schreiben Sie an die oben genannte E-Mail-Adresse. Sie haben außerdem das Recht, sich bei einer Datenschutzaufsichtsbehörde zu beschweren, in Berlin bei der Berliner Beauftragten für Datenschutz und Informationsfreiheit.</p>
 <h2>Änderungen</h2>
-<p>Ändert sich die App so, dass sie Daten übermittelt, wird diese Erklärung vorher angepasst.</p>
+<p>Ändert sich eine App so, dass sie weitere Daten übermittelt, wird diese Erklärung vorher angepasst.</p>
 </body></html>
